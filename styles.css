@@ -1,0 +1,468 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1 span {
+    color: yellow;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    padding: 30px !important;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+.Informacion {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 1000px;
+    margin: auto;
+    padding-bottom: 0;
+    background: rgb(255, 239, 16,0.8);
+    margin-top: 50px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+div.Informacion {
+    margin-top: 10px;
+    position: relative;
+} 
+.contenido-principal {
+    width: 100%;
+    height: 500px;
+    background-image: url(img/apple-design-desk-326501.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+p {
+    font-size: 26px;
+    padding: 30px;
+    padding-right: 0;
+    color: white;
+}
+.navbar-nav {
+    margin: auto;
+    width: 1100px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a.nav-link {
+    font-size: 25px;
+}
+h3 {
+    text-align: center;
+}
+h3.certificaciones {
+    padding-right: 120px;
+}
+.boton{
+    display: block;
+    background-color: yellow;
+    border: none;
+    border-radius: 50px;
+    box-shadow: none;
+    color: black;
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    visibility: visible;
+    width: 200px;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color .3s ease-in-out;
+    margin-left: 1000px;
+    margin: 20px;
+}
+
+.boton:hover {
+    background-color: black; 
+    color: yellow;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.importante {
+    width: 100%;
+    max-width: 1200px;
+}
+.importante li p {
+    font-size: 20px;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.importante {
+    width: 100%;
+    max-width: 1200px;
+}
+.aplicativos {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 120px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+.importante li p {
+    text-align: center;
+}
+div.junto {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 !important;
+    display: grid;
+    grid-gap: 150px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+#recursos {
+    color: black;
+}
+div.junto3 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 120px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+div.recursos-contenido {
+    background-color: rgb(255, 239, 16);
+    width: 2000%;
+    max-width: 1580px;
+    padding-right: 0;
+    margin-right: 0;
+}
+div.recursos{
+    margin-right: 0;
+    padding-right: 0;
+}
+div.junto4 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 100px;
+    display: grid;
+    grid-gap: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    padding: 0;
+}
+
+.swiper-slide .imgA {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.swiper-slide .imgA img {
+    width: 100%;
+}
+
+.swiper-slide .details {
+    box-sizing: border-box;
+    padding: 20px;
+} 
+
+.swiper-slide .details h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.testimonial {
+    background-color: yellow;
+    font-size: 1.4rem;
+    padding: 2rem;
+    margin: 5rem;
+    border-radius: 4rem;
+}
+
+.testimonial p {
+    text-align: right;
+}
+
+.testimonial blockquote::before {
+    content: '';
+    background-image: url(img/comilla.svg);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: -2rem;
+}
+
+.testimonial blockquote {
+    position: relative;
+    padding-left: 3rem;
+}
+
+#contacto {
+    color: yellow;
+}
+
+.formulario {
+    color: rgb(255, 239, 16);
+}
+
+.block {
+    color: rgb(255, 239, 16);
+}
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    color: rgb(255, 239, 16);
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: #222222;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgb(255, 239, 16, 0.3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color:rgba(0,0,1,0.7);
+    border-bottom: 1px solid rgb(255, 239, 16);
+}
+
+.contact-form form button {
+    background: rgb(255, 239, 16);
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: rgb(255, 239, 16);
+    color: #222222;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: rgb(255, 239, 16);
+    color: #222222;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: center;
+    }
+
+    .botones {
+      background: rgb(255, 239, 16);
+      color: #222222;
+      width: 10rem;
+      height: 2.5rem;
+
+    }
+    .botones a{
+        color: #000000;
+    }
+} 
+
+.contenedor-footer li {
+    color: (255, 239, 16);
+}
+
+/* .site-footer {
+    background-color: #333333;
+    margin: 0;
+}
+.contenedor-footer {
+    padding: 3rem 0;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .contenedor-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.site-footer nav {
+    display: none;
+}
+@media (min-width: 768px) {
+    .site-footer nav {
+        display: block;
+    }
+} */
+
+.site-footer {
+    background-color: black;
+}
+
+.site-footer a {
+    color: (255, 239, 16);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navegacion-bottom a {
+    padding-left: 50px;
+}
+
+.contenedor-footer ul li {
+    color: (255, 239, 16);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.copyright {
+    margin: 0;
+    color:(255, 239, 16);
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/** Mobile Menu **/
+.mobile-menu img {
+    width: 5rem;
+}
+@media (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+.navegacion:target {
+    display: block;
+}
+.navegacion {
+    display: none;
+}
+@media (min-width: 768px) {
+    .navegacion {
+        display: block;
+    }
+}
+
+.logo {
+    height: 10px;
+}
